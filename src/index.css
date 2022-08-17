@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header{
+  background-color: #E8871E;
+
+}
+
+Footer {
+  display: flex;
+  background-color: #35A7FF;
+  min-height: 10vh;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+form input, form textarea {
+  min-width: 50vw;
+  border-radius: 6px;
+  border-width: 1px;
+  
+}
+

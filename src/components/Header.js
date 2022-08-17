@@ -5,11 +5,11 @@ import Navigation from "./Nav"
 const Header = (props) => {
 
   return(
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar id="header" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Brendan Kersey</Navbar.Brand>
+        <Navbar.Brand>Brendan Kersey</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Navigation />
         </Navbar.Collapse>
       </Container>
