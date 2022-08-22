@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/github.io/bk-react-portfolio/static/css/main.3ce0e260.css",
+    "main.js": "/github.io/bk-react-portfolio/static/js/main.47d9cc95.js",
+    "static/js/787.00878620.chunk.js": "/github.io/bk-react-portfolio/static/js/787.00878620.chunk.js",
+    "static/media/3.png": "/github.io/bk-react-portfolio/static/media/3.fb84da05df1a79d23e08.png",
+    "static/media/1.png": "/github.io/bk-react-portfolio/static/media/1.bb3b22b89681bb8d84cf.png",
+    "static/media/0.png": "/github.io/bk-react-portfolio/static/media/0.3be49f530e5803c17337.png",
+    "static/media/2.png": "/github.io/bk-react-portfolio/static/media/2.cf1028024de55b7b7bd7.png",
+    "static/media/githubicon.svg": "/github.io/bk-react-portfolio/static/media/githubicon.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/github.io/bk-react-portfolio/index.html",
+    "static/media/linkedinicon.svg": "/github.io/bk-react-portfolio/static/media/linkedinicon.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "main.3ce0e260.css.map": "/github.io/bk-react-portfolio/static/css/main.3ce0e260.css.map",
+    "main.47d9cc95.js.map": "/github.io/bk-react-portfolio/static/js/main.47d9cc95.js.map",
+    "787.00878620.chunk.js.map": "/github.io/bk-react-portfolio/static/js/787.00878620.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce0e260.css",
+    "static/js/main.47d9cc95.js"
+  ]
+}
