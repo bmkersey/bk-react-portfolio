@@ -1,19 +1,32 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Project from './components/Project';
-import ContactForm from './components/ContactForm';
+import {HashRouter,Route,Routes,Navigate} from 'react-router-dom'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+
+
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
     <div className='App'>
-      <main className='main'>
-        <Header />
-        <Project />
-        <ContactForm />
-        <Footer />
-      </main>
+      
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Header />}>
+            <Route path="/" element={<Home/>}/>
+            <Route path="contact" element={<Contact/>}/>
+            <Route path="projects" element={<Portfolio/>}/>
+            <Route path="about" element={<About/>}/>
+            <Route path="/*" element={ <Navigate replace to="/"/>}/>
+          </Route>
+        </Routes>
+      </HashRouter>
+      <Footer />
+
     </div>
   );
 }
