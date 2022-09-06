@@ -7,10 +7,14 @@ const About = (props) =>{
   return(
     <main>
       <h1>About Me</h1>
-      <p>My name is Brendan Kersey. I am a 33 year old male. I have just recently switched into the field of Full stack Web development.
-        I have a background going back to highschool in programming. There I took visual basic and a web development class. Most recently I ran
-        a starbucks in the Okemos area. I have just recently started a family with my wife and needed a more secure job field. Feel free to check
-        out my projects by clicking the project link at the top.
+      <p>Full stack developer with previous experience in retail/food service management. Excels at problem solving and working
+        with others to complete given tasks. Recently earned certificate of completion from Michigan State University for Full 
+        Stack Development. During the course, the MERN stack was the main focus. Excels at MongoDb, express.js, React.js and 
+        node.js. For the final project, I handled the entire backend including: setting up the mongo database and setting up 
+        ApolloGraphQL. I am a detail-oriented coder who has contributed to past projects by finding ways to write code more 
+        efficiently. I helped classmates identify bugs in their code and was consistently approached by project teammates to double-
+        check their work. Known among staff for being knowledgeable and understanding when complex problems arise. I am beyond 
+        excited to begin this new stage and cannot wait to continue to develop my new technical skills.
       </p>
     </main>
   )

@@ -4,7 +4,11 @@ const Portfolio = (props) =>{
   
   return(
     <main>
+      <div className="container">
+        
       <Project/>
+      
+      </div>
     </main>
   )
 }

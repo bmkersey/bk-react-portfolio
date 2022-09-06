@@ -23,16 +23,17 @@ const Project = (props) => {
   ]
   return(
 
-    <div className="flex-row">
+    <div className="row">
         {projects.map((project, i) => (
-          <div key={project}>
-            <h2><a href={project.link}>{project.name}</a></h2>
+          <div key={project} className="col-4">
+            
             <img
               src={require(`../assets/images/Projects/${i}.png`)}
               alt={project.name}
               className="img-thumbnail mx-1"
               key={i}
             />
+            <h2><a href={project.link}>{project.name}</a></h2>
           </div>
         ))}
     </div>

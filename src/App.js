@@ -13,8 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
-    <div className='App'>
-      
+    <div className='App'>      
       <HashRouter>
         <Routes>
           <Route path="/" element={<Header />}>
@@ -28,7 +27,6 @@ function App() {
         </Routes>
       </HashRouter>
       <Footer />
-
     </div>
   );
 }
