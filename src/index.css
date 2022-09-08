@@ -42,3 +42,11 @@ form input, form textarea {
 .pageOne{
   display: flex !important;
 }
+
+#pdf {
+  margin-top: 5vh;
+}
+
+#about {
+  max-width: 600px;
+}

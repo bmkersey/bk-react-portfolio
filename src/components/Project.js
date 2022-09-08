@@ -19,6 +19,10 @@ const Project = (props) => {
     {
       name:"Oh Snap",
       link:"https://bmkersey.github.io/photo-port/"
+    },
+    {
+      name:"MyRorschach",
+      link:"www.myrorschach.com"
     }
   ]
   return(
